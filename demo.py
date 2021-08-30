@@ -362,7 +362,7 @@ if __name__ == '__main__':
     parser.add_argument('--output_folder', type=str,
                         help='output folder to write results')
 
-    parser.add_argument('--tracking_method', type=str, default='bbox', choices=['bbox', 'pose'],
+    parser.add_argument('--tracking_method', type=str, default='bbox', choices=['bbox', 'pose', 'maskrcnn'],
                         help='tracking method to calculate the tracklet of a subject from the input video')
 
     parser.add_argument('--detector', type=str, default='yolo', choices=['yolo', 'maskrcnn'],
