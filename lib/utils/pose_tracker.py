@@ -36,7 +36,7 @@ def run_openpose(
     display = 2 if vis else 0
     cmd = [
         'build/examples/openpose/openpose.bin',
-        '--model_pose', 'BODY_21A',
+        '--model_pose', 'BODY_25',
         '--tracking', '1',
         '--render_pose', str(render),
         '--video', video_file,
